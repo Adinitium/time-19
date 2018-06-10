@@ -19,7 +19,7 @@
 
 <style>
 .header-menu {
-  margin-top: 0;
+  margin-top: -3.1em;
   height: 3em;
   text-align: left;
   display: flex;

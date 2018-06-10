@@ -11,12 +11,13 @@
   </header>
 </template>
 
+
 <script>
 </script>
 
 <style>
 .header-menu {
-  margin-top: 0;
+  top: 0;
   height: 3em;
   text-align: left;
   display: flex;
