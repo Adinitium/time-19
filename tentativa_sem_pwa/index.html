@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="assets/main.css">
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	</head>
+	<body>
+	  <div class="background">
+	    <h1>bla</h1>
+	<div class="signup">
+    <template id="signup-form">
+      <h1>Cadastro</h1>
+      <form>
+        <div class="form-group">
+          <label for="nusp"></label>
+          <input type="text" placeholder="nUSP" v-model="nusp" />
+        </div>
+        <div class="form-group">
+          <label for="email"></label>
+          <input type="text" placeholder="Email" v-model="email" />
+        </div>
+        <div class="form-group">
+          <label for="psw1"></label>
+          <input type="password" placeholder="Senha" v-model="password1" />
+          <span v-show="msg1">{{ pwd1_msg }}</span>
+        </div>
+        <div class="form-group">
+          <label for="psw2"></label>
+          <input type="password" placeholder="Confirmar senha" v-model="password2" />
+          <span v-show="msg2">{{ pwd2_msg }}</span>
+        </div>
+        <div class="form-group">
+          <button :class="{active: disable_btn}":disabled="disable_btn" @click.prevent="on_signup()">Inscreva-se</button>
+        </div>
+      </form>
+    </template>
+    </div>
+	  </div>
+	</body>
+</html>
+
+<style>
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6ffff;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-menu {
+  margin-top: 0;
+  height: 3em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  background-color: #2286c3
+}
+
+.b-button-sm {
+  width: 1em;
+}
+
+.img {
+  height: 1em;
+}
+
+h1{
+  text-align: center;
+}
+
+.signup {
+  padding: 1em;
+  position: relative;
+  overflow: hidden;
+}
+
+form {
+  padding: 20px 50px 20px 20px;
+}
+
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  font-size: .9em;
+  margin: 0 0 20px 0;
+}
+
+.form-group input[type="text"], 
+.form-group input[type="password"] {
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0.4em;
+}
+
+form .form-group:last-child {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+</style>
