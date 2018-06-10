@@ -1,0 +1,49 @@
+
+.fondo{
+    background-color:  #64b5f6;
+    font-family: Verdana;
+}
+.horario{
+    margin: 25px;
+    font-size: 45;
+    display: flex;
+    align-items: center;
+}
+.tags{
+    margin: 25px;
+    font-size: 35;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    bottom: 10px;
+    color: rgb(94, 89, 89);
+  }
+.descripcao{
+    margin: 25px;
+    font-size: 15;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+  }
+.title{
+    margin: 25px;
+    font-size: 60;
+    display: flex;
+    align-items: center;
+  }
+.boxed {
+    margin: 25px;
+    background-color:#82b3c9;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+  }
+.boxed img{
+    height: 450px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
