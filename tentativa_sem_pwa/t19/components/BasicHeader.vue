@@ -3,9 +3,7 @@
     <hr>
       <div class="header-menu">
         <div class="menu-buttons">
-          <b-button-group>
-          <b-button variant="outline-danger" size="sm" @click="firstpage" class=""><img :src="require('@/assets/baseline_first_page_black_48dp.png')"/></b-button>
-         </b-button-group>
+          <nuxt-link to="/login"><img :src="require('@/assets/baseline_first_page_black_48dp.png')"/></nuxt-link>
         </div>
       </div>
   </header>
