@@ -1,7 +1,7 @@
 @font-face { font-family: open-sans; src: url('OpenSans-Regular.ttf'); } 
 @font-face { font-family: lato; src: url('Lato-Regular.ttf'); } 
 .fondo{
-    background-color:  rgba(124, 110, 110, 0);
+    background-color:  rgba(124, 110, 110, 0.548);
     font-family: open-sans;
     color: white;
 }
