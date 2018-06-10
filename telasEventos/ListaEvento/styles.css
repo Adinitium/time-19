@@ -1,7 +1,9 @@
-
+@font-face { font-family: open-sans; src: url('OpenSans-Regular.ttf'); } 
+@font-face { font-family: lato; src: url('Lato-Regular.ttf'); } 
 .fondo{
-    background-color:  #64b5f6;
-    font-family: Verdana;
+    background-color:  rgba(124, 110, 110, 0);
+    font-family: open-sans;
+    color: white;
 }
 .date{
     margin: 25px;
@@ -17,19 +19,16 @@
 
     width: 220px;
     height: 80px;
-    background-color: #9be7ff;
+    background-color:#02C6D1;
     right: 0;
-    border-radius: 0px 20px 0px 0px;
-    -moz-border-radius: 0px 20px 0px 0px;
-    -webkit-border-radius: 0px 20px 0px 0px;
 }
 .tags{
-    margin: 25px;
     font-size: 35;
     position: relative;
     display: flex;
     align-items: flex-end;
-    bottom: 10px;
+    color: #52595B;
+    background-color: rgb(245, 243, 243);
   }
 .descripcao{
     margin: 25px;
@@ -46,17 +45,11 @@
   }
 .boxed {
     margin: 25px;
-    background-color:#82b3c9;
+    background-color:#0095AD;
     position: relative;
-    border-radius: 20px 20px 20px 20px;
-    -moz-border-radius: 20px 20px 20px 20px;
-    -webkit-border-radius: 20px 20px 20px 20px;
   }
 .boxed img{
     height: 450px;
     width: 100%;
-    border-radius: 20px 20px 0px 0px;
-    -moz-border-radius: 20px 20px 0px 0px;
-    -webkit-border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
