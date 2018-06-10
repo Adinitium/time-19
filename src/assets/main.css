@@ -1,9 +1,0 @@
-.background {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #e6ffff;
-  width: 100%;
-  min-height: 100vh;
-}
