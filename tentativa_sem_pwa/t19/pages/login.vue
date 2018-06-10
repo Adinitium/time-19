@@ -10,6 +10,8 @@
   <input type="text" placeholder="Senha" id="senha">
 </h8><br><br>
 
+<b-button class="button" type="submit" variant="danger">Entrar</b-button>
+
 <h2>Quem somos</h2>
 
 <h8>

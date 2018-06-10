@@ -178,5 +178,40 @@ html {
   color: black;
 }
 
+.signup {
+  padding: 1em;
+  position: relative;
+  overflow: hidden;
+}
+
+form {
+  padding: 20px 50px 20px 20px;
+}
+
+form .form-group {
+  display: flex;
+  flex-direction: column;
+  font-size: .9em;
+  margin: 0 0 20px 0;
+}
+
+.form-group input[type="text"], 
+.form-group input[type="password"] {
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0.4em;
+}
+
+form .form-group:last-child {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+button {
+  
+}
 
 </style>
